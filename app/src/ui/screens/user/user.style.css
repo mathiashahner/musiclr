@@ -1,0 +1,52 @@
+.user__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.user__details {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.user__img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.user__title {
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.user__text {
+  margin-bottom: 5px;
+}
+
+.user__edit-btn {
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  background: none;
+  position: absolute;
+  transition: all 0.3s;
+}
+
+.user__edit-btn:hover {
+  transform: scale(1.1);
+}
+
+.user__edit-img {
+  height: 30px;
+}

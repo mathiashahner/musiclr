@@ -1,0 +1,134 @@
+.post__container {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.post__content {
+  width: 65%;
+  margin-right: 20px;
+  padding-right: 20px;
+  border-right: 3px solid var(--base-3);
+}
+
+.post__infos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post__img-user {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post__user-name {
+  font-weight: 600;
+}
+
+.post__date {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.post__user,
+.post__reactions,
+.post__reactions-btn {
+  display: flex;
+  align-items: center;
+}
+
+.post__reactions-btn {
+  background: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.post__like-img {
+  height: 28px;
+  margin-top: 4px;
+}
+
+.post__comment-img {
+  height: 25px;
+  margin-left: 25px;
+}
+
+.post__reactions > p {
+  margin-left: 7px;
+}
+
+.reaction-desloc {
+  margin-left: 20px;
+}
+
+.post__img {
+  max-width: 100%;
+  margin: 20px 0px;
+  border-radius: 10px;
+}
+
+.post__desciption {
+  display: flex;
+  position: relative;
+}
+
+.post__edit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background: none;
+  transition: all 0.3s;
+}
+
+.post__edit > img {
+  max-width: 100%;
+}
+
+.post__edit:hover {
+  transform: scale(1.1);
+}
+
+.post__play-btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--base-3);
+  margin: 7px 15px 0px 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.post__reactions-btn:hover,
+.post__play-btn:hover {
+  transform: scale(1.05);
+}
+
+.post__desciption-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.post__comments {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}

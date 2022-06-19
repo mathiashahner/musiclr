@@ -1,0 +1,61 @@
+.request__list {
+  width: 500px;
+  max-height: 70vh;
+  overflow-y: auto;
+  list-style: none;
+}
+
+.request__item {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.request__img-user {
+  width: 50px;
+  height: 50px;
+}
+
+.request__user-text {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.request__user-info {
+  font-size: 18px;
+}
+
+.request__control {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.request__control > p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.request_btn {
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: all 0.3s;
+  background: var(--base-2);
+}
+
+.request__btn-x {
+  background: var(--comp-4);
+  margin-left: 15px;
+}
+
+.request_btn:hover {
+  transform: scale(1.03);
+}
+
+.request__empty {
+  margin-top: 20px;
+}

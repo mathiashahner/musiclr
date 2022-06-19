@@ -1,0 +1,67 @@
+.input__label {
+  width: 400px;
+  height: 40px;
+  padding: 3px;
+  padding-left: 10px;
+  border-radius: 10px;
+  margin: 10px 0px;
+  transition: all 0.3s;
+  display: flex;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.65);
+}
+
+.input__label-small {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.input__label-file {
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+}
+
+.input__label-file > span {
+  opacity: 0.2;
+  font-size: 16px;
+}
+
+.input__img-file {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 7px;
+  top: 10px;
+}
+
+.input__file {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.input__img {
+  height: 23px;
+}
+
+.input {
+  width: 100%;
+  background: none;
+  outline: 0;
+  font-size: 16px;
+}
+
+.input__btn {
+  background: var(--base-4);
+  width: 20%;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input__btn-small {
+  background: var(--base-3);
+}

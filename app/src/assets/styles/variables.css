@@ -1,0 +1,19 @@
+:root {
+  --header-height: 80px;
+  --footer-height: 120px;
+  --container-width: 80%;
+  --container-max-width: 1200px;
+
+  --black: #000000;
+  --white: #ffffff;
+
+  --base-1: #fafafa;
+  --base-2: #e27713;
+  --base-3: #323232;
+  --base-4: #212121;
+
+  --comp-1: #ffba0d;
+  --comp-2: #e8930c;
+  --comp-3: #e8560c;
+  --comp-4: #ff3b0d;
+}
